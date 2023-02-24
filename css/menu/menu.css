@@ -1,0 +1,7 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+    margin: 0;
+}

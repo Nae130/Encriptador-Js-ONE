@@ -1,0 +1,13 @@
+.menu__item{
+    list-style: none;
+    margin-right:3rem;
+    font-size: 2rem;
+}
+.menu__item a{
+    color: #ffffff;
+    text-decoration: none; 
+    font-weight: bold;
+}
+.menu__item a:hover{
+    color: black;
+}
