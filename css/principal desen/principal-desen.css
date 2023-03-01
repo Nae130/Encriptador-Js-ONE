@@ -1,0 +1,6 @@
+.principal__desen{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 5%;
+}

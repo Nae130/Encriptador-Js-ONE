@@ -9,5 +9,6 @@
     font-weight: bold;
 }
 .menu__item a:hover{
-    color: black;
+    color: #d3d6e0;
+    text-decoration: overline;
 }

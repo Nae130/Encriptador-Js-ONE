@@ -5,12 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador Js ONE</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/menu/menu.css">
     <link rel="stylesheet" href="css/menu/menu-imagen.css">
     <link rel="stylesheet" href="css/menu/menu-lista.css">
     <link rel="stylesheet" href="css/menu/menu-item.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/principal desen/principal-desen.css">
+    <link rel="stylesheet" href="css/principal desen/principal-desen-caja.css">
+    <link rel="stylesheet" href="css/principal desen/principal-desen-parrafo.css">
+    <link rel="stylesheet" href="css/principal desen/principal-desen-botones.css">
+    <link rel="stylesheet" href="css/principal desen/principal-desen-boton.css">
+    <link rel="stylesheet" href="css/principal mensaje/principal-mensaje.css">
+    <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-imagen.css">
+    <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-textop.css">
+    <link rel="stylesheet" href="css/principal mensaje/princinpal-mensaje-textoc.css">
+    
 
 </head>
 <body>
@@ -18,11 +29,27 @@
         <nav class="menu">
             <img class="menu__imagen" src="imagenes/cropped-blackbox-cube.webp" alt="Imagen cubo">
             <ul class="menu__lista">
-                <li class="menu__item"><a href="#">Inicio</a></li>
-                <li class="menu__item"><a href="#">Descripcion</a></li>
-                <li class="menu__item"><a href="#">Github</a></li>
+                <li class="menu__item "><a class="inicio" href="#">Inicio</a></li>
+                <li class="menu__item descripcion"><a href="#">Descripcion</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="principal">
+            <div class="principal__desen">
+                <textarea class="principal__desen-caja" name="" id="" cols="30" rows="10"></textarea>
+                <p class="principal__desen-parrafo">Solo letras minusculas y sin acento (para gener un buen funcionamiento).</p>
+                <div class="principal__desen-botones">
+                    <button class="principal__desen-boton">Encriptar</button>
+                    <button class="principal__desen-boton">Desencriptar</button>
+                </div>
+            </div>
+            <div class="principal__mensaje">
+                <img class="principal__mensaje-imagen" src="imagenes/caja vacia.png" alt="">
+                <p class="principal__mensaje-textop">Ningun mensaje encontrado(ingresar un mensaje).</p>
+                <p class="principal__mensaje-textoc">Ingresa el texto a desencriptar/encriptar,</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

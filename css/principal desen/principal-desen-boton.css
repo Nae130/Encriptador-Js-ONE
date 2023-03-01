@@ -1,0 +1,12 @@
+.principal__desen-boton{
+    color: white;
+    background-color: rgb(66, 66, 66);
+    border-radius: 7px;
+    font-size: 2rem;
+    padding: .5rem;
+}
+.principal__desen-boton:hover{
+    cursor: pointer;
+    font-size: 2.1rem;
+    background-color: #000000 ;
+}
