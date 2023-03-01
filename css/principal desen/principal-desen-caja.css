@@ -1,0 +1,16 @@
+.principal__desen-caja{
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #788199;
+    border-radius: 5%;
+    padding: 2rem;
+    color: #ffffff;
+    border-width: 0;
+    font-size: 2rem;
+    align-items: start;
+    
+}
+::placeholder{
+    color: #ffffff;
+}

@@ -1,4 +1,7 @@
 .principal__mensaje{
     width: 20%;
     margin-left: 5%;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 3%;
 }

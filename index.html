@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-imagen.css">
     <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-textop.css">
     <link rel="stylesheet" href="css/principal mensaje/princinpal-mensaje-textoc.css">
+    <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-boton.css">
     
 
 </head>
@@ -37,7 +38,7 @@
     <main>
         <section class="principal">
             <div class="principal__desen">
-                <textarea class="principal__desen-caja" name="" id="" cols="30" rows="10"></textarea>
+                <textarea class="principal__desen-caja" name="area-principal" id="area-principal" cols="30" rows="10" placeholder="Ingresa tu texto aqui."></textarea>
                 <p class="principal__desen-parrafo">Solo letras minusculas y sin acento (para gener un buen funcionamiento).</p>
                 <div class="principal__desen-botones">
                     <button class="principal__desen-boton">Encriptar</button>
@@ -46,10 +47,16 @@
             </div>
             <div class="principal__mensaje">
                 <img class="principal__mensaje-imagen" src="imagenes/caja vacia.png" alt="">
-                <p class="principal__mensaje-textop">Ningun mensaje encontrado(ingresar un mensaje).</p>
-                <p class="principal__mensaje-textoc">Ingresa el texto a desencriptar/encriptar,</p>
+                <p class="principal__mensaje-textop">Mensaje NO encontrado.</p>
+                <p class="principal__mensaje-textoc">Ingresa el texto a desencriptar/encriptar.</p>
+                <div class="principal__mensaje-boton-div">
+                    <button class="principal__mensaje-boton">Copiar</button>
+                </div>
             </div>
         </section>
     </main>
+    <footer>
+        <p>Creado por: Juan Romero</p>
+    </footer>
 </body>
 </html>

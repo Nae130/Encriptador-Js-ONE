@@ -1,9 +1,11 @@
 .principal__desen-boton{
     color: white;
+    font-weight: 520;
     background-color: rgb(66, 66, 66);
     border-radius: 7px;
     font-size: 2rem;
     padding: .5rem;
+    width: 230px;
 }
 .principal__desen-boton:hover{
     cursor: pointer;

@@ -4,11 +4,11 @@
     font-size: 2rem;
 }
 .menu__item a{
-    color: #ffffff;
+    color: #000000;
     text-decoration: none; 
     font-weight: bold;
 }
 .menu__item a:hover{
-    color: #d3d6e0;
+    color: #725c5c;
     text-decoration: overline;
 }
