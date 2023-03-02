@@ -22,7 +22,10 @@
     <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-textop.css">
     <link rel="stylesheet" href="css/principal mensaje/princinpal-mensaje-textoc.css">
     <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-boton.css">
-    
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer/footer-logos.css">
+    <link rel="stylesheet" href="css/footer/footer-logo-item.css">
+    <link rel="stylesheet" href="css/footer/footer-creditos.css">
 
 </head>
 <body>
@@ -38,11 +41,11 @@
     <main>
         <section class="principal">
             <div class="principal__desen">
-                <textarea class="principal__desen-caja" name="area-principal" id="area-principal" cols="30" rows="10" placeholder="Ingresa tu texto aqui."></textarea>
+                    <textarea class="principal__desen-caja"  name="area-principal" id="area-principal" cols="30" rows="10" placeholder="Ingresa tu texto aqui."></textarea>
                 <p class="principal__desen-parrafo">Solo letras minusculas y sin acento (para gener un buen funcionamiento).</p>
                 <div class="principal__desen-botones">
-                    <button class="principal__desen-boton">Encriptar</button>
-                    <button class="principal__desen-boton">Desencriptar</button>
+                    <button onclick="Encriptar()" name="encriptar" class="principal__desen-boton">Encriptar</button>
+                    <button onclick="Desencriptar()" name="desencriptar" class="principal__desen-boton">Desencriptar</button>
                 </div>
             </div>
             <div class="principal__mensaje">
@@ -55,8 +58,20 @@
             </div>
         </section>
     </main>
-    <footer>
-        <p>Creado por: Juan Romero</p>
+    <footer class="footer">
+        <div class="footer__logo">
+            <a href="https://www.linkedin.com/in/juan-romero-10929a1bb/">
+                <img class="footer__logo-item linkedin" src="imagenes/linkedin.svg" alt="">
+            </a>
+            <div class="espacio">
+
+            </div>
+            <a href="https://github.com/Nae130">
+                <img class="footer__logo-item github" src="imagenes/github.svg" alt="">
+            </a>
+        </div>
+        <p class="footer__creditos">Creado por: Juan Romero</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
