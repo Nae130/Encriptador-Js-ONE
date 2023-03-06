@@ -9,6 +9,7 @@
     border-radius: 7px;
     font-size: 2rem;
     padding: .5rem;
+    display: none;
     
 }
 .principal__mensaje-boton:hover{

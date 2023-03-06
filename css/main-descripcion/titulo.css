@@ -1,0 +1,21 @@
+.titulo{
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.menu__item .inicio{
+    text-decoration: none;
+}
+.menu__item .inicio:hover{
+    text-decoration: overline;
+}
+
+.menu__item .descripcion{
+    text-decoration: underline;
+}
+.menu__item .descripcion:hover{
+    text-decoration: underline;
+}

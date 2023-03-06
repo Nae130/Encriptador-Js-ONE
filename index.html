@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador Js ONE</title>
+    <title>Encriptador Js | ONE</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/menu/menu.css">
     <link rel="stylesheet" href="css/menu/menu-imagen.css">
@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-textop.css">
     <link rel="stylesheet" href="css/principal mensaje/princinpal-mensaje-textoc.css">
     <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-boton.css">
+    <link rel="stylesheet" href="css/principal mensaje/principal-mensaje.boton-div.css">
+    <link rel="stylesheet" href="css/principal mensaje/principal-mensaje-DesEn.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/footer/footer-logos.css">
     <link rel="stylesheet" href="css/footer/footer-logo-item.css">
@@ -31,10 +33,12 @@
 <body>
     <header>
         <nav class="menu">
-            <img class="menu__imagen" src="imagenes/cropped-blackbox-cube.webp" alt="Imagen cubo">
+            <a href="index.html">
+                <img class="menu__imagen" src="imagenes/cropped-blackbox-cube.webp" alt="Imagen cubo">
+            </a>
             <ul class="menu__lista">
-                <li class="menu__item "><a class="inicio" href="#">Inicio</a></li>
-                <li class="menu__item descripcion"><a href="#">Descripcion</a></li>
+                <li class="menu__item "><a class="inicio" href="index.html">Inicio</a></li>
+                <li class="menu__item descripcion"><a href="paginas/descripcion.html">Descripcion</a></li>
             </ul>
         </nav>
     </header>
@@ -42,18 +46,19 @@
         <section class="principal">
             <div class="principal__desen">
                     <textarea class="principal__desen-caja"  name="area-principal" id="area-principal" cols="30" rows="10" placeholder="Ingresa tu texto aqui."></textarea>
-                <p class="principal__desen-parrafo">Solo letras minusculas y sin acento (para gener un buen funcionamiento).</p>
+                <p class="principal__desen-parrafo">Solo letras minusculas y sin acento (para tener un buen funcionamiento).</p>
                 <div class="principal__desen-botones">
-                    <button onclick="Encriptar()" name="encriptar" class="principal__desen-boton">Encriptar</button>
-                    <button onclick="Desencriptar()" name="desencriptar" class="principal__desen-boton">Desencriptar</button>
+                    <button id="bt-encriptar" class="principal__desen-boton">Encriptar</button>
+                    <button  id="bt-desencriptar" class="principal__desen-boton">Desencriptar</button>
                 </div>
             </div>
             <div class="principal__mensaje">
-                <img class="principal__mensaje-imagen" src="imagenes/caja vacia.png" alt="">
-                <p class="principal__mensaje-textop">Mensaje NO encontrado.</p>
-                <p class="principal__mensaje-textoc">Ingresa el texto a desencriptar/encriptar.</p>
+                <img id="mensaje-img" class="principal__mensaje-imagen" src="imagenes/caja vacia.png" alt="">
+                <p id="mensaje-p" class="principal__mensaje-textop">Mensaje NO encontrado.</p>
+                <p id="mensaje-c" class="principal__mensaje-textoc">Ingresa el texto a desencriptar/encriptar.</p>
+                <textarea class="principal__mensaje-DesEn" id="textoDes-En" cols="30" rows="10" spellcheck="false"></textarea>
                 <div class="principal__mensaje-boton-div">
-                    <button class="principal__mensaje-boton">Copiar</button>
+                    <button id="bt-copiar" class="principal__mensaje-boton">Copiar</button>
                 </div>
             </div>
         </section>
