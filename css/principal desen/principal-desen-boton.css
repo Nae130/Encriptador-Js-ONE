@@ -15,7 +15,8 @@
 /*Cel*/
 @media(max-width:764px) {
     .principal__desen-boton{
-        width: 100%;
+        width: 150%;
+        margin-left: -25%;
         margin-bottom: .75rem;
     }   
 }
