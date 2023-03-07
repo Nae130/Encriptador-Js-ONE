@@ -1,3 +1,10 @@
 .menu__lista{
     display: flex;
 }
+/*Tablet*/
+@media(max-width:764px) {
+    .menu__lista{
+        flex-direction: column;
+        text-align: center;
+    }      
+}

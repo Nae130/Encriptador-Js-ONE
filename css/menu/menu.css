@@ -5,3 +5,9 @@
     background-color:#e7ebeb;
     margin: 0;
 }
+/*Tablet*/
+@media(max-width:764px) {
+    .menu{
+        flex-direction: column;
+    }
+}

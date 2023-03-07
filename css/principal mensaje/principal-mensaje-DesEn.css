@@ -6,3 +6,9 @@
     height: 85%;
     cursor: default;
 }
+/*Tablet*/
+@media(max-width:1200px) {
+    .principal__mensaje-DesEn{
+        height: 60%;
+    }
+}

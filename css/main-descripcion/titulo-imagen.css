@@ -4,3 +4,13 @@
 .imagen{
     margin-left: 25%;
 }
+/*Tablet*/
+@media(max-width:1200px) {
+    .titulo__imagen{
+        width: 60%;
+        margin-left:20%;
+    }
+    .imagen{
+        margin: 0;
+    }
+}

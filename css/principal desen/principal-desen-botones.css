@@ -4,3 +4,20 @@
     justify-content: space-around ;
     padding: 0 10rem;
 }
+
+/*Tablet*/
+@media(max-width:1200px) {
+    .principal__desen-botones{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+/*Cel*/
+@media(max-width:764px) {
+    .principal__desen-botones{
+        display: block;
+        padding: 0;
+        margin-left: 25%;
+        margin-right: 25%;
+    }   
+}

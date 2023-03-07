@@ -17,3 +17,19 @@
     font-size:2.1rem ;
     background-color: #000000;
 }
+/*Tablet*/
+@media(max-width:1200px) {
+    .principal__mensaje-boton{
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }   
+}
+/*Cel*/
+@media(max-width:764px) {
+    .principal__mensaje-boton{
+        width: 170%;
+        margin-left: -35%;
+        
+    }   
+}

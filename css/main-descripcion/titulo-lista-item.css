@@ -5,3 +5,9 @@
     font-family: cursive;
     font-weight: 500;
 }
+/*Tablet*/
+@media(max-width:1200px) {
+    .titulo__lista-item{
+        margin-bottom: 1.25rem;
+    }      
+}

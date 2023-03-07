@@ -19,3 +19,11 @@
 .menu__item .descripcion:hover{
     text-decoration: underline;
 }
+
+/*Tablet*/
+@media(max-width:1200px) {
+    .titulo{
+        margin-bottom: 2rem;
+        padding-top: 2rem;
+    }      
+}

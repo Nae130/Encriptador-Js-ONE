@@ -4,3 +4,9 @@
     margin-bottom: 1rem;
     margin-left: 1rem;
 }
+/*Tablet*/
+@media(max-width:1200px) {
+    .titulo__secundario{
+        width: auto;
+    }      
+}

@@ -3,3 +3,9 @@
     padding-top:3rem ;
     padding-bottom: 3rem;
 }
+/*Tablet*/
+@media(max-width:1200px) {
+    .principal{
+        display: block;
+    }
+}

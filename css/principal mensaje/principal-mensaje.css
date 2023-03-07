@@ -5,3 +5,10 @@
     padding: 2rem;
     border-radius: 3%;
 }
+/*Tablet*/
+@media(max-width:1200px) {
+    .principal__mensaje{
+        width: 70%;
+        margin: 0 auto;
+    }   
+}

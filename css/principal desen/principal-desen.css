@@ -4,3 +4,19 @@
     width: 65%;
     margin-left: 5%;
 }
+
+/*Tablet*/
+@media(max-width:1200px) {
+ .principal__desen{
+    margin-left: 3%;
+    width: 94%;
+    margin-bottom: 4rem;
+ }   
+}
+/*Cel*/
+@media(max-width:764px) {
+    .principal__desen{
+        width: 100%;
+        margin-left: 0;
+    }
+}

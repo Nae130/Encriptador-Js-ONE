@@ -12,3 +12,10 @@
     color: #725c5c;
     text-decoration: overline;
 }
+/*Cel*/
+@media(max-width:764px) {
+    .menu__item{
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }   
+}

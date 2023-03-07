@@ -14,3 +14,9 @@
 ::placeholder{
     color: #ffffff;
 }
+/*Cel*/
+@media(max-width:764px) {
+    .principal__desen-caja{
+        width: 70%;
+    }   
+}
